@@ -1,6 +1,6 @@
-# Check Front-End Developer Technical Assessment
+# Check Front-End Developer Apprenticeship Technical Assessment
 
-Welcome to the Check Front-End Developer Technical Assessment!
+Welcome to the Check Front-End Developer Apprenticeship Technical Assessment
 
 This assessment is designed to evaluate your foundational knowledge of JavaScript and React. We're looking for candidates who can demonstrate a good understanding of core concepts, problem-solving skills, and the ability to write clean, maintainable code.
 
