@@ -1,0 +1,17 @@
+.center {
+  text-align: center;
+  margin-top: 15em;
+}
+
+#myText {
+  margin-top: 5em;
+  font-size: larger;
+}
+
+#changeText {
+  height: 3.5em;
+  width: 5em;
+  background-color: #e3a5ec;
+  border-radius: 55%;
+  margin-top: 2em;
+}
