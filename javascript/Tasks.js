@@ -17,3 +17,25 @@ function changeTextFunction() {
   });
 }
 changeTextFunction();
+
+// Task 3: Basic Fetch :
+function fetchAndDisplayTodos() {
+  const apiUrl = "https://jsonplaceholder.typicode.com/todos";
+
+  fetch(apiUrl)
+    .then((response) => response.json())
+    .then((data) => {
+      const todosToDisplay = data.slice(0, 5);
+      const listElement = document.getElementById("todoList");
+
+      todosToDisplay.forEach((todo) => {
+        const li = document.createElement("li");
+        li.textContent = todo.title;
+        listElement.appendChild(li);
+      });
+    })
+    .catch((error) => {
+      console.error("Error fetching data:", error);
+    });
+}
+fetchAndDisplayTodos();
